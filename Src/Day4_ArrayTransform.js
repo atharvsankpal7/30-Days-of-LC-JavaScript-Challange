@@ -9,4 +9,5 @@ var map = function(arr, fn) {
         arr[i]=fn(e,i);
     })
     return arr;
+    //return arr.map(fn);
 };
