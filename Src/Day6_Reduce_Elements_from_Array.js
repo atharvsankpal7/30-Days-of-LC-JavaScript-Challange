@@ -15,4 +15,4 @@ var reduce = function(nums, fn, init) {
     })
     return init;
     
-};
+};s
