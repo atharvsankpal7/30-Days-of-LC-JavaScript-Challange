@@ -26,7 +26,7 @@ var promisePool = async function (functions, n) {
                         //Calling the `callback` function recursively
                         callback();
                     });
-                    
+
                 //as soon as the function is called we will make sure that `progressCount` is incremented
                 progressCount++;
             }
